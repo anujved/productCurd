@@ -11,7 +11,7 @@ module.exports = mongoose.model(
     },
     quantity: {
       type: Number,
-      required: [true, "quantity is requiredd"],
+      required: [true, "quantity is required"],
     },
     description: {
       type: String,
